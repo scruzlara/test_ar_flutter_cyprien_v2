@@ -92,3 +92,11 @@ Cela consiste à supprimer tous les éléments de Preferences Items de Root.plis
 ## Utilisation
 
 Il vous suffit ensuite de build l'app sur votre téléphone et de lancer l'application. Si votre téléphone scanne une surface, un repère devrait apparaitre.
+
+Ne pas oublier de rajouter le chemin dans le pubspect.yaml :
+```bash
+flutter:
+  assets:
+    - assets/duck.gltf
+    - assets/3d/
+```
